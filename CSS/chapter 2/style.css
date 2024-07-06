@@ -44,3 +44,12 @@ p::first-line{
 p::selection{
     background-color: yellow;
 }
+button{
+    color: red;
+}
+#login{
+    color: aquamarine;
+}
+.hello {
+    color: black;
+}
