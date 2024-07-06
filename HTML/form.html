@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form </title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label for="username">username</label>
+            <input type="text" placeholder="username" id="username" name="username">
+            <br>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" placeholder="password" id="password">
+            <br>
+        </div>
+        <div>
+            <label>
+                date of birth
+                <input type="date" name="date of birth" id="DOB">
+            </label>
+            <br>
+        </div>
+        <div>
+            <label>
+                time
+                <input type="time">
+            </label>
+
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+                <input type="checkbox" name="age" id="age" checked>
+                <label for="age">I am 18+</label>
+                <input type="checkbox" name="T&C" id="T&C" checked>
+                <label for="T&C">I agree terms and condition </label>
+        </div>
+        <div>
+            <label for="job">Pick your profession</label>
+            <select name="job" id="job">
+                <option value="">select from option</option>
+                <option value="front">Front end dev</option>
+                <option value="back">back end dev</option>
+                <option value="full">full stack</option>
+                <option value="student" selected>student</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">select your age </label>
+            <input type="range" min="18" max="65" name="age" id="age" step="1" value="21">
+        </div>
+        <button type="submit">submit</button>
+        <button type="reset"> reset</button>
+        <!-- <button type="button">menu</button>
+        <input type="button" value="click me ">
+        <input type="submit"> -->
+            <div>
+                <label for="feedback">give your feedback</label>
+                <br>
+                <textarea name="feedback" id="feedback" placeholder="write here "></textarea>
+            </div>
+    </form>
+</body>
+</html>
