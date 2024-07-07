@@ -1,0 +1,48 @@
+/* div{
+
+    align-content: center;
+    text-align:center;
+    height: 200px;
+    width: 400px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-left-color: blue;
+    border-left-style: dashed;
+    border-top: 5px dashed green;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding: 10px;
+    padding-left: 100px;
+    margin-top: 10px;
+    margin: 20px;
+}
+h1{
+    border: 5px solid gainsboro;
+}
+button{
+    padding: 10px 20px 30px 40px;
+    background-color: aliceblue;
+    color: black;
+}
+button:hover{
+    background-color: rgb(67, 18, 166);
+    color: bisque;
+}
+button:active{
+    text-decoration: underline;
+    background-color: rgb(166, 18, 85);
+    color: rgb(14, 6, 1);
+    box-shadow: inset 1px 1px 1px 1px rgb(14, 6, 1);
+} */
+#out{
+    font-size: 20px;
+}
+div{
+    /* font-size: 2em; */
+    font-size: 1rem;
+}
